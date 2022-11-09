@@ -5,12 +5,11 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class RenameThisClass
-{
-    public static void main(String[] args) {
-    String string1 = "I am a string";
-    String string2 = string1;
-    String string3 = "I am also a string";
-    boolean stringsEqual = string1.equals(string3);
-    }
-}
+public class RenameThisClass {
+    public void run() {
+        for (int i = 1; i <= 100; i++)
+        {
+            if (i/3.0 == i/3 && i/5.0 == i/5) {
+                System.out.println("FizzBuzz");
+            }
+        }
